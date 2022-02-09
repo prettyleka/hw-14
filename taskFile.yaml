@@ -1,0 +1,12 @@
+- name: Insatll Packages
+  hosts: myHost
+  become: true
+  tasks:
+    - name: Install vim
+      package:
+        name: vim
+        state: latest
+    - name: Install zip
+      package:
+        name: zip
+        state: latest

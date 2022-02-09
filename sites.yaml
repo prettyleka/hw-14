@@ -1,0 +1,4 @@
+- hosts: myHost
+  roles:
+    - hello-world
+    - server
